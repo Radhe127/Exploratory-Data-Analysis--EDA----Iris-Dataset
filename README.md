@@ -74,6 +74,6 @@ These visualizations helped uncover relationships and patterns in the data, such
 This project was completed as part of my **Data Science Internship at Codveda Technologies**.  
 You can follow my progress using hashtags like:
 
-📧 Email: [radheshyam123@email.com](mailto:radheverma146@gmail.com)  
+📧 Email: [radheverma146@gmail.com](mailto:radheverma146@gmail.com)  
 🔗 GitHub: [https://github.com/Radhe127](https://github.com/Radhe127)  
 🔗 LinkedIn: [https://linkedin.com/in/radheverma](https://linkedin.com/in/radheverma)  
