@@ -1,79 +1,90 @@
 # 🌸 Exploratory Data Analysis (EDA) – Iris Dataset
 
-This project is part of my internship at **Codveda Technologies**, where I explored the Iris dataset using Python. The goal was to analyze and visualize the structure and characteristics of the data before building any machine learning models.
+This project was completed as part of my **Codveda Data Science Internship**.  
+The goal was to explore the famous **Iris flower dataset** using Python and visualize its features to gain insights before applying machine learning models.
 
 ---
 
-## 📁 Dataset
+## 📁 Dataset Overview
 
-The dataset used is the classic **Iris flower dataset**, which contains 150 samples of iris flowers classified into three species:
-- `Setosa`
-- `Versicolor`
-- `Virginica`
-
-Each sample includes the following features:
-- Sepal Length
-- Sepal Width
-- Petal Length
-- Petal Width
+- **Dataset**: Iris Flower Dataset
+- **Samples**: 150
+- **Features**:
+  - Sepal Length
+  - Sepal Width
+  - Petal Length
+  - Petal Width
+- **Target**: Species (Setosa, Versicolor, Virginica)
 
 ---
 
-## 🧠 Objective
+## 🧠 Project Objectives
 
-The main objective was to:
-- Perform data loading and initial inspection
-- Understand the structure of the dataset
-- Visualize the relationships between features
-- Identify outliers and correlations
-- Gain insights useful for future modeling
+- Load and clean the dataset
+- Perform summary statistics and check for missing values
+- Explore relationships between features using visualizations
+- Identify patterns useful for classification models
 
 ---
 
 ## 🛠️ Tools Used
 
-- Python
-- Pandas
-- Matplotlib
-- Seaborn
-- Jupyter Notebook
+- Python (Jupyter Notebook)
+- Pandas, Seaborn, Matplotlib
 
 ---
 
-## 📊 Key Visualizations
+## 📊 Key Outputs & Visual Insights
 
-- **Correlation heatmap**
-- **Histograms**
-- **Boxplots**
-- **Pairplot (colored by species)**
+✅ **Head of Dataset**  
+Shows first 5 rows with proper column names and 150 entries. No missing values were found.
 
-These visualizations helped uncover relationships and patterns in the data, such as strong correlation between petal length and petal width, and clear species separation.
+✅ **Summary Statistics**  
+Revealed clear differences in mean petal length and width across species.
+
+✅ **Correlation Heatmap**  
+Petal length and petal width had a **strong positive correlation (~0.96)**. Sepal features were weakly correlated.
+
+✅ **Boxplots**  
+- Petal length and petal width had strong species-wise separation
+- Sepal width showed more overlapping between species
+
+✅ **Histograms**  
+- Petal width and length distributions clearly separated Setosa from others
+- Sepal dimensions were more evenly distributed
+
+✅ **Pairplot** (colored by species)  
+- Setosa was completely separable from Versicolor and Virginica
+- Versicolor and Virginica had some overlap, but still distinct in petal length/width
 
 ---
 
 ## 🔍 Final Insights
 
-- No missing data was found in the dataset.
-- Features like petal length and petal width are highly correlated.
-- The dataset is balanced across species.
-- Pairplots clearly show that the three species are well-separated.
-- Suitable for classification modeling with high confidence.
+- 🔸 **No missing values** found
+- 🔸 **Petal dimensions** are highly discriminative for classification
+- 🔸 **Setosa** is linearly separable from other species
+- 🔸 Dataset is balanced and ideal for testing classification models
 
 ---
 
-## 🏁 Status
+## 🧾 Notebook
 
-✅ Completed  
-📂 Notebook: `EDA_Iris.ipynb`  
-🧠 Task Level: Basic – *Codveda Internship Task 1*
+- 📂 File: `EDA_Iris.ipynb`
+- 📊 Data: `iris.csv`
 
 ---
 
 ## 📢 Internship Credit
 
-This project was completed as part of my **Data Science Internship at Codveda Technologies**.  
-You can follow my progress using hashtags like:
+This project was submitted as **Task 1** under the **Codveda Technologies Data Science Internship** program.
 
-📧 Email: [radheverma146@gmail.com](mailto:radheverma146@gmail.com)  
-🔗 GitHub: [https://github.com/Radhe127](https://github.com/Radhe127)  
-🔗 LinkedIn: [https://linkedin.com/in/radheverma](https://linkedin.com/in/radheverma)  
+> ✨ #CodvedaInternship #EDA #IrisDataset #Python #Seaborn #DataScience ✨
+
+---
+
+## 🔗 Connect with Me
+
+- 📧 Email: [radheverma146@gmail.com](mailto:radheverma146@gmail.com)  
+- 🔗 GitHub: [https://github.com/Radhe127](https://github.com/Radhe127)  
+- 🔗 LinkedIn: [https://linkedin.com/in/radheverma](https://linkedin.com/in/radheverma)
